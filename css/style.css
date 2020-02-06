@@ -1,0 +1,330 @@
+
+html{
+	font-size: 10px;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+
+
+/* ------------------------
+    Nav
+------------------------*/
+
+.invezta-nav{
+	background-color: #efefef;
+	padding:0;
+	border-color: #efefef;
+	-webkit-box-shadow: 0 1px 14px -8px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0 1px 14px -8px rgba(0,0,0,0.75);
+	box-shadow: 0 1px 14px -8px rgba(0,0,0,0.75);
+	border-radius: 0;
+	margin-bottom: 0;
+}
+.invezta-nav .navbar-brand{
+	height: auto;
+	padding:0;
+}
+.invezta-nav .navbar-header{
+	display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1.5rem 0;
+    margin: 0;
+}
+.invezta-nav .navbar-header .back-btn{
+    display: flex;
+    padding: 0;
+}
+
+.invezta-nav .logo{
+	padding: 0;
+	display: flex;
+	width: 100%;
+}
+.invezta-nav .logo>img{
+	width: 20rem;
+	padding-left: 4rem;
+}
+.invezta-nav .back-btn>img, .invezta-nav .close-img>img{
+	width: 3rem;
+}
+.invezta-nav .cross-img>img{
+	display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.main-section{
+	padding: 5rem 0;
+}
+.title{
+	color: #5b5b5b;
+	font-size: 3.4rem;
+	margin-bottom: 0;
+	font-weight: 300;
+}
+.sub-title{
+	font-size: 1rem;
+	font-weight: 500;
+}
+
+
+/* ------------------------
+    Portfolio Details
+------------------------*/
+
+
+.portfolio-details{
+	margin-top: 4rem;
+}
+.portfolio-details{
+	list-style: none;
+	text-align: center;
+	display: flex;
+	padding-left: 0;
+}
+.portfolio-details li{
+	width: 100%;
+}
+.portfolio-details li .icon-wrapper img{
+	height: 4rem;
+}
+.portfolio-details li .icon-wrapper, .portfolio-details li .portfolio-info{
+	display: inline-block;
+    vertical-align: middle;
+    margin-right: 1rem;
+}
+.portfolio-details li .portfolio-info h2{
+	margin-bottom: 0;
+	font-size: 3.2rem;
+	color: #4d4d4d;
+	font-weight: 400;
+	text-align: left;
+	margin-top: 0;
+}
+.portfolio-details li .portfolio-info label{
+	font-size: 1.3rem;
+	font-weight: 300;
+}
+.portfolio-details li .portfolio-info{
+	text-align: left;
+}
+
+/* ------------------------
+    Scheme Card
+------------------------*/
+
+
+.portfolio-card-pie-section{
+	margin-top: 5rem;
+}
+ .scheme-card{
+	list-style: none;	
+	padding-left: 0;
+}
+ .scheme-card li{
+	margin-bottom: 1rem;
+}
+ .scheme-card li .fund-details{
+	position: relative;
+	display: flex;
+    height: 100%;    
+    cursor: pointer;
+}
+ .scheme-card li:hover .fund-details:before{
+ 	position: absolute;
+ 	content: "";
+ 	width: 4px;
+ 	height: 100%;
+ 	background-color: #14a388;
+ 	left: 0;
+ }
+ .scheme-card li .fund-details .fund-details-info{
+	display: inline-block;
+	width: 80%;
+	padding: 1rem 1.5rem;
+	border:2px solid #eeeeee;	
+	border-right: 0;
+}
+ .scheme-card li .fund-details .fund-value{
+	width: 20%;
+    background: #14a388;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #fff;
+}
+ .scheme-card li .fund-details .fund-value h2{
+	margin:0;
+}
+ .scheme-card li .fund-details .fund-details-info p{
+	font-size: 1.6rem;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+ .scheme-card li .fund-details .fund-details-info label{
+	font-size: 1.1rem;
+	font-weight: 400;
+}
+ .scheme-card li .fund-details .fund-details-info label.fund-size{
+	width: 150px;
+	padding-left: 3rem;
+}
+.scheme-card li .fund-details .fund-details-info label.fund-size:after{
+	content: "";
+	background-color: #000;
+    height: 1rem;
+    width: 1rem;
+    position: absolute;
+    border-radius: 7px;
+    left: 17px;
+    margin-top: 2px;
+}
+ .scheme-card li .fund-details.large-fund .fund-details-info label.fund-size:after{
+    background-color: #14a388;
+}
+ .scheme-card li .fund-details.small-fund .fund-details-info label.fund-size:after{
+	
+    background-color: #13bc9c;
+}
+ .scheme-card li .fund-details.small-fund .fund-value{
+	background-color: #13bc9c;
+}
+ .scheme-card li .fund-details.long-fund .fund-details-info label.fund-size:after{
+    background-color: #425b77;
+}
+ .scheme-card li .fund-details.long-fund .fund-value{
+	background-color: #425b77;
+}
+
+/* ------------------------
+    Progress Circle
+------------------------*/
+
+.progress-circle {
+    font-size: 2rem;
+    margin: 2rem auto;
+    position: relative;
+    padding: 0;
+    width: 230px;
+    height: 230px;
+    background-color: #13bc9c;
+    border-radius: 50%;
+    line-height: 0;
+}
+.progress-circle span {
+    position: absolute;
+    line-height: 27px;
+    width: 230px;
+    text-align: center;
+    display: block;
+    color: #12d6b0;
+    z-index: 2;
+    font-size: 2.5rem;
+    font-weight: 500;
+    top: 25%;
+}
+.progress-circle .equity {
+    color: #425b77;
+    top: 53%;
+}
+.progress-circle:after {
+    border: none;
+    position: absolute;
+    top: 16.1px;
+    left: 16.1px;
+    text-align: center;
+    display: block;
+    border-radius: 100%;
+    width: 197.5px;
+    height: 197.5px;
+    background-color: #fff;
+    content: " ";
+}
+.progress-circle .left-half-clipper {
+    clip: rect(auto,auto,auto,auto);
+}
+.left-half-clipper {
+    border-radius: 50%;
+    width: 230px;
+    height: 230px;
+    position: absolute;
+    clip: rect(0,230px,230px,115px);
+}
+.progress-circle .first50-bar {
+    position: absolute;
+    clip: rect(0,230px,230px,115px);
+    background-color: #53777a;
+    border-radius: 50%;
+    width: 230px;
+    height: 230px;
+}
+.progress-circle.pie50 .value-bar {
+    transform: rotate(180deg);
+}
+.value-bar {
+    position: absolute;
+    clip: rect(0,115px,230px,0);
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    border: 21px solid #425b77;
+    box-sizing: border-box;
+}
+
+.progress-circle:before {
+    transform: rotate(0deg);
+    border: 16px solid #1f8471;
+    content: "";
+    left: 0;
+    top: 0;
+    position: absolute;
+    border-radius: 50%;
+    height: 230px;
+    width: 230px;
+    clip: rect(0,115px,115px,0);
+
+}
+.progress-circle-outer{
+	position: relative;
+	width: 230px;
+	height: 230px;
+	margin: 0 auto;
+}
+.progress-circle-outer p{
+	font-size: 0.9rem;
+	font-weight: 400;
+}
+
+.progress-circle-outer:after {
+    transform: rotate(0deg);
+    border: 23px solid rgba(135,209,195,0.5);
+    content: "";
+    left: -5px;
+    top: -7px;
+    position: absolute;
+    border-radius: 50%;
+    height: 230px;
+    width: 236px;
+    clip: rect(0,120px,122px,0);
+}
+.invezta-btn{
+	margin-top: 50px;
+	font-size: 21px;
+	font-weight: 500;
+	color: #fff;
+	background-color: #12d6b0;	
+	border-color: #12d6b0;
+	padding: 10px 35px;
+
+}
+.invezta-btn:hover{
+	background-color: #129e83;
+	color: #fff;
+	border-color: #129e83;
+}
+

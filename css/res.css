@@ -1,0 +1,74 @@
+@media only screen and (max-width:1199px) {
+     html{
+         font-size: 8px;
+    }
+     .portfolio-details {
+         justify-content: space-around;
+    }
+     .progress-circle-outer {
+         margin-bottom: 7rem;
+    }
+     .invezta-btn {
+         margin-top: 3rem;
+    }
+}
+ @media only screen and (max-width:767px) {
+     .main-section {
+         padding: 4rem 0;
+    }
+     .portfolio-details{
+         flex-wrap: wrap;
+         padding: 0 20px;
+         justify-content: start;
+    }
+     .portfolio-details li {
+         padding: 15px 0px;
+         width: 33%;
+         text-align: left;
+    }
+     .progress-circle-outer {
+         margin-bottom: 7.5rem;
+    }
+     .progress-circle-outer p {
+         font-size: 1.3rem;
+         text-align: center;
+    }
+     .scheme-card li .fund-details .fund-value h2{
+         font-size: 3rem;
+    }
+     .scheme-card li {
+         margin-bottom: 1.3rem;
+    }
+     .invezta-btn{
+         margin-top: 3rem;
+    }
+     .scheme-card{
+         padding-top: 2rem;
+    }
+     .sub-title {
+         font-size: 1.4rem 
+    }
+}
+ @media only screen and (max-width:575px) {
+     .portfolio-details li {
+         width: 50%;
+    }
+}
+ @media only screen and (max-width:480px) {
+     .portfolio-details li {
+         width: 100%;
+         text-align: center;
+    }
+     .scheme-card li .fund-details{
+         flex-direction: column;
+    }
+     .scheme-card li .fund-details .fund-details-info,.scheme-card li .fund-details .fund-value{
+         width: 100%;
+    }
+     .scheme-card li .fund-details .fund-details-info{
+         border: 2px solid #eeeeee 
+    }
+     .scheme-card li .fund-details .fund-value{
+         padding: 1rem;
+    }
+}
