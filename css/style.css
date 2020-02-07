@@ -171,7 +171,7 @@ body{
 	font-weight: 400;
 }
  .scheme-card li .fund-details .fund-details-info label.fund-size{
-	width: 150px;
+	width: 220px;
 	padding-left: 3rem;
 }
 .scheme-card li .fund-details .fund-details-info label.fund-size:after{
@@ -322,9 +322,10 @@ body{
 	padding: 10px 35px;
 
 }
-.invezta-btn:hover{
+.invezta-btn:hover,.invezta-btn:active, .invezta-btn:focus{
 	background-color: #129e83;
 	color: #fff;
 	border-color: #129e83;
+    outline: none;
 }
 
